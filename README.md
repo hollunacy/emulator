@@ -52,31 +52,6 @@ This project implements a **Harvard architecture CPU emulator** with a **single-
 | INC | 0xA | Increment operand |
 | DEC | 0xB | Decrement operand |
 
-## Project Structure
-
-```
-├── emulator5.py              # Python GUI emulator
-├── cpu.v                     # Verilog CPU implementation
-├── sum_test.v                # Verilog test bench
-├── sum_program.mem           # Memory initialization file (to be created)
-└── README.md                 # This file
-```
-
-## Getting Started
-
-### Python Emulator
-```bash
-python emulator5.py
-```
-
-### Verilog Simulation
-1. Create `sum_program.mem` with assembled machine code
-2. Use any Verilog simulator (e.g., Icarus Verilog):
-```bash
-iverilog -o test cpu.v sum_test.v
-vvp test
-```
-
 ## Use Cases
 
 1. **Computer Architecture Education**: Understand Harvard architecture and instruction execution
