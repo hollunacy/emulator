@@ -52,13 +52,6 @@ This project implements a **Harvard architecture CPU emulator** with a **single-
 | INC | 0xA | Increment operand |
 | DEC | 0xB | Decrement operand |
 
-## Use Cases
-
-1. **Computer Architecture Education**: Understand Harvard architecture and instruction execution
-2. **Assembly Programming**: Learn single-address instruction sets
-3. **Hardware/Software Codesign**: Compare Python emulator with Verilog implementation
-4. **Algorithm Implementation**: Write and test algorithms in assembly
-
 ## Technical Details
 
 - **Instruction Format**: 16-bit `[opcode:4][addr_type:2][operand:10]`
