@@ -6,7 +6,7 @@ This project implements a **Harvard architecture CPU emulator** with a **single-
 
 ## Key Features
 
-### 🖥️ Python GUI Emulator (`emulator5.py`)
+### 🖥️ Python GUI Emulator (`emulator.py`)
 - **Harvard Architecture**: Separate code and data memory spaces
 - **Single-Address Instruction Set**: All operations use the accumulator (ACC) as one operand
 - **Four Addressing Modes**:
